@@ -36,6 +36,7 @@ class UserController extends Controller
     }
 
     public function getSignin() {
+        
     	return view('user.signin');
     }
 
